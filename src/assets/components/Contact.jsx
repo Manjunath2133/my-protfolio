@@ -17,7 +17,7 @@ const Contact = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
 
-    const res = await fetch('https://your-backend-name.onrender.com/api/contact', {
+    const res = await fetch('https://my-protfolio-ydkn.onrender.com/api/contact', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify(formData)

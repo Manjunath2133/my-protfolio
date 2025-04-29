@@ -6,7 +6,7 @@ const Logout = () => {
 
   const handleLogout = async () => {
     try {
-      const res = await fetch('https://your-backend-name.onrender.com/api/auth/logout', {
+      const res = await fetch('https://my-protfolio-ydkn.onrender.com/api/auth/logout', {
         method: 'POST',
         credentials: 'include',
       });
