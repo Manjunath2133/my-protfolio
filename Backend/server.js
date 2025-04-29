@@ -11,7 +11,7 @@ const PORT = 5000;
 
 
 app.use(cors({
-  origin: 'http://localhost:3000',
+  origin: 'https://my-portfolio-frontend-2t82.onrender.com',
   credentials: true, // required for cookies
 }));
 app.use(bodyParser.json());
