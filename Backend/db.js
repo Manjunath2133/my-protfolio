@@ -2,7 +2,7 @@ import pg from 'pg';
 const { Pool } = pg;
 
 const pool = new Pool({
-  connectionString: 'postgresql://my_db_raye_user:cWkrYjsR7FRMSlz0pGRFNilunUh56HUE@dpg-d08h1qqli9vc739qhls0-a.singapore-postgres.render.com/my_db_raye',
+  connectionString: 'postgresql://db_0jtm_user:2zvA4DBfnPdCNT4zKFvlcdKbSuPZp4Yy@dpg-d08s9pqdbo4c73e8mdtg-a.singapore-postgres.render.com/db_0jtm',
   // user: 'postgres',
   // host: 'localhost',
   // database: 'portfolio',
